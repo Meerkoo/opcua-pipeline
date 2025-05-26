@@ -20,7 +20,7 @@ services:
     env_file:
       - .env
     volumes:
-      - ./config.json:/app/config.json
+      - ./configs/machine1.json:/app/config.json
     depends_on:
       - influxdb
 
