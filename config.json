@@ -1,0 +1,173 @@
+{
+    "machine_data": {
+        "machine_id": "hopper-1",
+        "location": "Zaandam",
+        "data_points": {
+            "SCADA.sEnabled": {
+                "data_point": "Activating the OPC UA server for 60 seconds",
+                "datatype": "DINT"
+            },
+            "SCADA.sPermanentlyEnabled": {
+                "data_point": "Permanent activation of the OPC UA server",
+                "datatype": "DINT"
+            },
+            "SCADA.sProgramNo": {
+                "data_point": "Program number",
+                "datatype": "DINT"
+            },
+            "SCADA.sProgramName": {
+                "data_point": "Program name",
+                "datatype": "STRING"
+            },
+            "SCADA.sWeightX10": {
+                "data_point": "Nominal weight",
+                "datatype": "DINT"
+            },
+            "SCADA.sWeightCorrectionX10": {
+                "data_point": "Weigth Correction",
+                "datatype": "STRING"
+            },
+            "SCADA.sMainSpeedX10": {
+                "data_point": "Tempo of the main drive",
+                "datatype": "DINT"
+            },
+            "SCADA.sPPMX10": {
+                "data_point": "Portions per minute Setpoint",
+                "datatype": "DINT"
+            },
+            "SCADA.sPortionsPerMinuteX100": {
+                "data_point": "Portions per minute",
+                "datatype": "UDINT"
+            },
+            "SCADA.sPauseTime": {
+                "data_point": "Break time",
+                "datatype": "DINT"
+            },
+            "SCADA.sClipTime": {
+                "data_point": "Clipp time",
+                "datatype": "DINT"
+            },
+            "SCADA.sWeightedSampleX10": {
+                "data_point": "Weight sample",
+                "datatype": "DINT"
+            },
+            "SCADA.sAccessLevel": {
+                "data_point": "Accesslevel",
+                "datatype": "DINT"
+            },
+            "SCADA.sAnalogOut1X10": {
+                "data_point": "Analog output 1",
+                "datatype": "DINT"
+            },
+            "SCADA.sAnalogOut2X10": {
+                "data_point": "Analog output 2",
+                "datatype": "DINT"
+            },
+            "SCADA.sIsMachineIdle": {
+                "data_point": "Machine is idle",
+                "datatype": "DINT"
+            },
+            "SCADA.sIsMachineInProduction": {
+                "data_point": "Machine is in production",
+                "datatype": "DINT"
+            },
+            "SCADA.sISErroractive": {
+                "data_point": "Error active",
+                "datatype": "DINT"
+            },
+            "SCADA.sErrorCode": {
+                "data_point": "ErrorCode",
+                "datatype": "DINT"
+            },
+            "SCADA.sStrokeCounter": {
+                "data_point": "Piece Counter",
+                "datatype": "UDINT"
+            },
+            "SCADA.sDailyStrokeCounter": {
+                "data_point": "Daily-Piece Counter",
+                "datatype": "UDINT"
+            },
+            "SCADA.sDailyQuantityCounter": {
+                "data_point": "Daily-Quantity Counter",
+                "datatype": "UDINT"
+            },
+            "SCADA.sDailyProductionRunTimeSec": {
+                "data_point": "Daily production Runtime",
+                "datatype": "UDINT"
+            },
+            "SCADA.sDailyIdleTimeSec": {
+                "data_point": "Daily Idle time",
+                "datatype": "UDINT"
+            },
+            "SCADA.sGelThickness": {
+                "data_point": "Gel thickness",
+                "datatype": "DINT"
+            },
+            "SCADA.sFillerB_Speed": {
+                "data_point": "Tempo of alginate pump (HPCoex)",
+                "datatype": "DINT"
+            },
+            "SCADA.sFeedBeltSpeedX10": {
+                "data_point": "Tempo feed belt",
+                "datatype": "DINT"
+            },
+            "SCADA.sTransportBeltSpeedX10": {
+                "data_point": "Tempo Transportbelt",
+                "datatype": "DINT"
+            },
+            "SCADA.sCrimperBeltSpeed": {
+                "data_point": "Tempo Crimperbelt",
+                "datatype": "DINT"
+            },
+            "SCADA.sGelOutput": {
+                "data_point": "Gel output",
+                "datatype": "DINT"
+            },
+            "SCADA.sCalibre": {
+                "data_point": "Calibre",
+                "datatype": "DINT"
+            },
+            "SCADA.sSausageLength": {
+                "data_point": "Sausage Length",
+                "datatype": "DINT"
+            },
+            "SCADA.sBackSuctionX10": {
+                "data_point": "Back suction",
+                "datatype": "DINT"
+            },
+            "ArticleNo_Data": {
+                "data_point": "Article No.",
+                "datatype": "DINT"
+            },
+            "SCADA.sIsWarningActive": {
+                "data_point": "Warning active",
+                "datatype": "DINT"
+            },
+            "SCADA.sStartStopMode": {
+                "data_point": "Start-Stop-Mode",
+                "datatype": "DINT"
+            },
+            "SCADA.sLifeBit": {
+                "data_point": "LifeBit",
+                "datatype": "DINT"
+            },
+            "SCADA.sSystemTime": {
+                "data_point": "System time",
+                "datatype": "DINT"
+            },
+            "SCADA.sIsHopperEmpty": {
+                "data_point": "Hopper filling status",
+                "datatype": "DINT"
+            },
+            "Batch_OrderName.Data": {
+                "data_point": "Name/ID of batch/order",
+                "datatype": "STRING"
+            },
+            "Batch_MaterialNumber.Data": {
+                "data_point": "Name/ID of used material",
+                "datatype": "STRING"
+            }
+        }
+    }
+}
+
