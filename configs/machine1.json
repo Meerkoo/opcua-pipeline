@@ -1,173 +1,92 @@
 {
     "machine_data": {
-        "machine_id": "hopper-1",
+        "machine_id": "vacuum-hopper",
         "location": "Zaandam",
         "data_points": {
-            "SCADA.sEnabled": {
-                "data_point": "Activating the OPC UA server for 60 seconds",
-                "datatype": "DINT"
+            "ArticleNo.Data": {"node_id": "ns=2;i=20001"},
+            "Batch_MaterialNumber.Data": {"node_id": "ns=2;i=20002"},
+            "Batch_OrderName.Data": {"node_id": "ns=2;i=20003"},
+            "BatchResult_MaterialNumber.Data": {"node_id": "ns=2;i=20004"},
+            "BatchResult_OrderName.Data": {"node_id": "ns=2;i=20005"},
+            "OPCDiagnosticData.sAnalogOut1": {"node_id": "ns=2;i=20006"},
+            "OPCDiagnosticData.sAnalogOut2": {"node_id": "ns=2;i=20007"},
+            "OPCDiagnosticData.sBatchNo": {"node_id": "ns=2;i=20008"},
+            "OPCDiagnosticData.sCasingID": {"node_id": "ns=2;i=20009"},
+            "OPCDiagnosticData.sDailyErrorTime": {"node_id": "ns=2;i=20010"},
+            "OPCDiagnosticData.sDailyIdleTime": {"node_id": "ns=2;i=20011"},
+            "OPCDiagnosticData.sDailyProductionRunTime": {"node_id": "ns=2;i=20012"},
+            "OPCDiagnosticData.sDriveClearance": {"node_id": "ns=2;i=20013"},
+            "OPCDiagnosticData.sDriveDiagBeltActSpeed": {"node_id": "ns=2;i=20014"},
+            "OPCDiagnosticData.sDriveDiagBeltCurrent": {"node_id": "ns=2;i=20015"},
+            "OPCDiagnosticData.sDriveDiagBeltIxTAkku": {"node_id": "ns=2;i=20016"},
+            "OPCDiagnosticData.sDriveDiagBeltVoltage": {"node_id": "ns=2;i=20017"},
+            "OPCDiagnosticData.sDriveDiagInfeedActSpeed": {"node_id": "ns=2;i=20018"},
+            "OPCDiagnosticData.sDriveDiagInfeedCurrent": {"node_id": "ns=2;i=20019"},
+            "OPCDiagnosticData.sDriveDiagInfeedIxTAkku": {"node_id": "ns=2;i=20020"},
+            "OPCDiagnosticData.sDriveDiagInfeedVoltage": {"node_id": "ns=2;i=20021"},
+            "OPCDiagnosticData.sDriveDiagMainActSpeed": {"node_id": "ns=2;i=20022"},
+            "OPCDiagnosticData.sDriveDiagMainAvgCurrent": {"node_id": "ns=2;i=20023"},
+            "OPCDiagnosticData.sDriveDiagMainCurrent": {"node_id": "ns=2;i=20024"},
+            "OPCDiagnosticData.sDriveDiagMainIxTAkku": {"node_id": "ns=2;i=20025"},
+            "OPCDiagnosticData.sDriveDiagMainTemp": {"node_id": "ns=2;i=20026"},
+            "OPCDiagnosticData.sDriveDiagMainVoltage": {"node_id": "ns=2;i=20027"},
+            "OPCDiagnosticData.sDriveDiagTwistActSpeed": {"node_id": "ns=2;i=20028"},
+            "OPCDiagnosticData.sDriveDiagTwistCurrent": {"node_id": "ns=2;i=20029"},
+            "OPCDiagnosticData.sDriveDiagTwistIxTAkku": {"node_id": "ns=2;i=20030"},
+            "OPCDiagnosticData.sDriveDiagTwistTemp": {"node_id": "ns=2;i=20031"},
+            "OPCDiagnosticData.sDriveDiagTwistVoltage": {"node_id": "ns=2;i=20032"},
+            "OPCDiagnosticData.sEfficiency": {"node_id": "ns=2;i=20033"},
+            "OPCDiagnosticData.sErrorTime": {"node_id": "ns=2;i=20034"},
+            "OPCDiagnosticData.sFillerSpeedPercent": {"node_id": "ns=2;i=20035"},
+            "OPCDiagnosticData.sFillerSpeedPPM": {"node_id": "ns=2;i=20036"},
+            "OPCDiagnosticData.sIdleTime": {"node_id": "ns=2;i=20037"},
+            "OPCDiagnosticData.sInfeedLimitMax": {"node_id": "ns=2;i=20038"},
+            "OPCDiagnosticData.sInfeedQuantityPerRound": {"node_id": "ns=2;i=20039"},
+            "OPCDiagnosticData.sIsElevatorMoving": {"node_id": "ns=2;i=20040"},
+            "OPCDiagnosticData.sIsErrorActive": {"node_id": "ns=2;i=20041"},
+            "OPCDiagnosticData.sIsMachineIdle": {"node_id": "ns=2;i=20042"},
+            "OPCDiagnosticData.sIsMachineInProduction": {"node_id": "ns=2;i=20043"},
+            "OPCDiagnosticData.sIsMainDriveMoving": {"node_id": "ns=2;i=20044"},
+            "OPCDiagnosticData.sIsMaintenanceRequired": {"node_id": "ns=2;i=20045"},
+            "OPCDiagnosticData.sIsMetalDetected": {"node_id": "ns=2;i=20046"},
+            "OPCDiagnosticData.sLastErrorNumber": {"node_id": "ns=2;i=20047"},
+            "OPCDiagnosticData.sLastLubrication": {"node_id": "ns=2;i=20048"},
+            "OPCDiagnosticData.sLineNumber": {"node_id": "ns=2;i=20049"},
+            "OPCDiagnosticData.sMachineID": {"node_id": "ns=2;i=20050"},
+            "OPCDiagnosticData.sMainAccelRamp": {"node_id": "ns=2;i=20051"},
+            "OPCDiagnosticData.sMainDecelRamp": {"node_id": "ns=2;i=20052"},
+            "OPCDiagnosticData.sMaintenanceHours1": {"node_id": "ns=2;i=20053"},
+            "OPCDiagnosticData.sMaintenanceHours2": {"node_id": "ns=2;i=20054"},
+            "OPCDiagnosticData.sMaintenanceHours3": {"node_id": "ns=2;i=20055"},
+            "OPCDiagnosticData.sMaintenanceHours4": {"node_id": "ns=2;i=20056"},
+            "OPCDiagnosticData.sMaintenanceHours5": {"node_id": "ns=2;i=20057"},
+            "OPCDiagnosticData.sMaintenanceHours6": {"node_id": "ns=2;i=20058"},
+            "OPCDiagnosticData.sMaintenanceHours7": {"node_id": "ns=2;i=20059"},
+            "OPCDiagnosticData.sMaintenanceHours8": {"node_id": "ns=2;i=20060"},
+            "OPCDiagnosticData.sMeasuredWeight": {"node_id": "ns=2;i=20061"},
+            "OPCDiagnosticData.sMsgWindowErrorNumber": {"node_id": "ns=2;i=20062"},
+            "OPCDiagnosticData.sNextScheduledMaintenanceHours": {
+                "node_id": "ns=2;i=20063"
             },
-            "SCADA.sPermanentlyEnabled": {
-                "data_point": "Permanent activation of the OPC UA server",
-                "datatype": "DINT"
-            },
-            "SCADA.sProgramNo": {
-                "data_point": "Program number",
-                "datatype": "DINT"
-            },
-            "SCADA.sProgramName": {
-                "data_point": "Program name",
-                "datatype": "STRING"
-            },
-            "SCADA.sWeightX10": {
-                "data_point": "Nominal weight",
-                "datatype": "DINT"
-            },
-            "SCADA.sWeightCorrectionX10": {
-                "data_point": "Weigth Correction",
-                "datatype": "STRING"
-            },
-            "SCADA.sMainSpeedX10": {
-                "data_point": "Tempo of the main drive",
-                "datatype": "DINT"
-            },
-            "SCADA.sPPMX10": {
-                "data_point": "Portions per minute Setpoint",
-                "datatype": "DINT"
-            },
-            "SCADA.sPortionsPerMinuteX100": {
-                "data_point": "Portions per minute",
-                "datatype": "UDINT"
-            },
-            "SCADA.sPauseTime": {
-                "data_point": "Break time",
-                "datatype": "DINT"
-            },
-            "SCADA.sClipTime": {
-                "data_point": "Clipp time",
-                "datatype": "DINT"
-            },
-            "SCADA.sWeightedSampleX10": {
-                "data_point": "Weight sample",
-                "datatype": "DINT"
-            },
-            "SCADA.sAccessLevel": {
-                "data_point": "Accesslevel",
-                "datatype": "DINT"
-            },
-            "SCADA.sAnalogOut1X10": {
-                "data_point": "Analog output 1",
-                "datatype": "DINT"
-            },
-            "SCADA.sAnalogOut2X10": {
-                "data_point": "Analog output 2",
-                "datatype": "DINT"
-            },
-            "SCADA.sIsMachineIdle": {
-                "data_point": "Machine is idle",
-                "datatype": "DINT"
-            },
-            "SCADA.sIsMachineInProduction": {
-                "data_point": "Machine is in production",
-                "datatype": "DINT"
-            },
-            "SCADA.sISErroractive": {
-                "data_point": "Error active",
-                "datatype": "DINT"
-            },
-            "SCADA.sErrorCode": {
-                "data_point": "ErrorCode",
-                "datatype": "DINT"
-            },
-            "SCADA.sStrokeCounter": {
-                "data_point": "Piece Counter",
-                "datatype": "UDINT"
-            },
-            "SCADA.sDailyStrokeCounter": {
-                "data_point": "Daily-Piece Counter",
-                "datatype": "UDINT"
-            },
-            "SCADA.sDailyQuantityCounter": {
-                "data_point": "Daily-Quantity Counter",
-                "datatype": "UDINT"
-            },
-            "SCADA.sDailyProductionRunTimeSec": {
-                "data_point": "Daily production Runtime",
-                "datatype": "UDINT"
-            },
-            "SCADA.sDailyIdleTimeSec": {
-                "data_point": "Daily Idle time",
-                "datatype": "UDINT"
-            },
-            "SCADA.sGelThickness": {
-                "data_point": "Gel thickness",
-                "datatype": "DINT"
-            },
-            "SCADA.sFillerB_Speed": {
-                "data_point": "Tempo of alginate pump (HPCoex)",
-                "datatype": "DINT"
-            },
-            "SCADA.sFeedBeltSpeedX10": {
-                "data_point": "Tempo feed belt",
-                "datatype": "DINT"
-            },
-            "SCADA.sTransportBeltSpeedX10": {
-                "data_point": "Tempo Transportbelt",
-                "datatype": "DINT"
-            },
-            "SCADA.sCrimperBeltSpeed": {
-                "data_point": "Tempo Crimperbelt",
-                "datatype": "DINT"
-            },
-            "SCADA.sGelOutput": {
-                "data_point": "Gel output",
-                "datatype": "DINT"
-            },
-            "SCADA.sCalibre": {
-                "data_point": "Calibre",
-                "datatype": "DINT"
-            },
-            "SCADA.sSausageLength": {
-                "data_point": "Sausage Length",
-                "datatype": "DINT"
-            },
-            "SCADA.sBackSuctionX10": {
-                "data_point": "Back suction",
-                "datatype": "DINT"
-            },
-            "ArticleNo_Data": {
-                "data_point": "Article No.",
-                "datatype": "DINT"
-            },
-            "SCADA.sIsWarningActive": {
-                "data_point": "Warning active",
-                "datatype": "DINT"
-            },
-            "SCADA.sStartStopMode": {
-                "data_point": "Start-Stop-Mode",
-                "datatype": "DINT"
-            },
-            "SCADA.sLifeBit": {
-                "data_point": "LifeBit",
-                "datatype": "DINT"
-            },
-            "SCADA.sSystemTime": {
-                "data_point": "System time",
-                "datatype": "DINT"
-            },
-            "SCADA.sIsHopperEmpty": {
-                "data_point": "Hopper filling status",
-                "datatype": "DINT"
-            },
-            "Batch_OrderName.Data": {
-                "data_point": "Name/ID of batch/order",
-                "datatype": "STRING"
-            },
-            "Batch_MaterialNumber.Data": {
-                "data_point": "Name/ID of used material",
-                "datatype": "STRING"
-            }
+            "OPCDiagnosticData.sOperatingHours": {"node_id": "ns=2;i=20064"},
+            "OPCDiagnosticData.sOperatorNo": {"node_id": "ns=2;i=20065"},
+            "OPCDiagnosticData.sPortionsDailyCurRecipe": {"node_id": "ns=2;i=20066"},
+            "OPCDiagnosticData.sPortionsDailyTotal": {"node_id": "ns=2;i=20067"},
+            "OPCDiagnosticData.sPortionsTotal": {"node_id": "ns=2;i=20068"},
+            "OPCDiagnosticData.sPortionsTotalCurRecipe": {"node_id": "ns=2;i=20069"},
+            "OPCDiagnosticData.sProductionRunTime": {"node_id": "ns=2;i=20070"},
+            "OPCDiagnosticData.sProgramNumber": {"node_id": "ns=2;i=20071"},
+            "OPCDiagnosticData.sQuantityDailyCurRecipe": {"node_id": "ns=2;i=20072"},
+            "OPCDiagnosticData.sQuantityDailyTotal": {"node_id": "ns=2;i=20073"},
+            "OPCDiagnosticData.sQuantityTotal": {"node_id": "ns=2;i=20074"},
+            "OPCDiagnosticData.sQuantityTotalCurRecipe": {"node_id": "ns=2;i=20075"},
+            "OPCDiagnosticData.sResetCanDrives": {"node_id": "ns=2;i=20076"},
+            "OPCDiagnosticData.sRevolutionsFeedsys": {"node_id": "ns=2;i=20077"},
+            "OPCDiagnosticData.sRevolutionsMainDrive": {"node_id": "ns=2;i=20078"},
+            "OPCDiagnosticData.sTwistSpeed": {"node_id": "ns=2;i=20079"},
+            "OPCDiagnosticData.sWeightCorrectionValue": {"node_id": "ns=2;i=20080"},
+            "OPCDiagnosticData.sWeightCorrFactorDown": {"node_id": "ns=2;i=20081"},
+            "OPCDiagnosticData.sWeightCorrFactorUp": {"node_id": "ns=2;i=20082"}
         }
     }
 }
-
