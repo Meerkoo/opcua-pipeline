@@ -33,7 +33,7 @@ with open("./config.json") as file:
 OPC_UA_SERVER = os.getenv("OPC_UA_SERVER")
 POLLING_INTERVAL = os.getenv("POLLING_INTERVAL")
 USE_SUBSCRIPTIONS = os.getenv("USE_SUBSCRIPTIONS")
-SUBSCRIPTION_PERIOD = os.getenv("SUBSCRIPTION_PERIOD")
+SUBSCRIPTION_PERIOD = int(os.getenv("SUBSCRIPTION_PERIOD"))
 
 INFLUX_URL = os.getenv("INFLUX_URL")
 INFLUX_TOKEN = os.getenv("INFLUX_TOKEN")
@@ -146,7 +146,7 @@ class OpcUaClient:
 
         try:
             self.subscription = await self.client.create_subscription(
-                period=SUBSCRIPTION_PERIOD, handler=SubHandler(self)
+                period=500, handler=SubHandler(self)
             )
 
             for name, info in self.nodes_to_monitor.items():
