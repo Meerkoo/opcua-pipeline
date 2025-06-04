@@ -26,7 +26,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-with open("./configs/machine1.json") as file:
+with open("./config.json") as file:
     config = json.load(file)
 
 
