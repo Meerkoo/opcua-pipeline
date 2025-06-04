@@ -1,6 +1,7 @@
+import logging
 from opcua import Client
 
-client = Client("opc.tcp://localhost:4840/freeopcua/server/") # Chagne
+client = Client("opc.tcp://172.16.193.222:4842", timeout=50) # Chagne
 client.connect()
 
 try:
